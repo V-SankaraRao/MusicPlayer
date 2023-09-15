@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b9831806bd.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="player/jawan.png">
+
+</head>
+<body>
+    <div class="box">
+        <div class="player">
+            <nav>
+                <img src="player/back-removebg-preview.png" id="back">
+                <img src="player/menu-removebg-preview.png" id="menu">
+            </nav>
+            <img src="player/jawan.png" id="pic">
+            <h1>jawan</h1>
+            <p>theme song</p>
+            <audio id="song" >
+                <source src="player/song1.mp3">
+            </audio>
+            <input type="range" max="0" id="progress">
+            <footer>
+                <div>
+                    <i class="fa-solid fa-backward" ></i>
+                </div>
+                <div id="play" onclick="playorpause()">
+                    <i class="fa-solid fa-play" id="playicon"></i>
+                </div>
+                <div>
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+            </footer>
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
